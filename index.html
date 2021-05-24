@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../main.css">
+    <title>Dice Roll Game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1 id="heading">Welcome to the Table</h1>
+            <p>Let's make a bet... 
+            <br>If you can roll this dice and make it to a score of 20 or above, you win. 
+            <br>But roll a 1 and it's GAMEOVER.</p>
+            <h3>Best of luck.</h3>
+            <button class="button" id="dice-roll">START</button>
+            <div class="bigbox">
+                <h3 id="roll">You rolled a:</h3>
+                <h3 id ="roll"></h3>
+                <h3>Your total score:</h3> 
+                <h3 id="score"></h3>
+            </div>
+                <div class="dice-box">
+                    <img id="dice1" src="img/dice1.png" class="dice dice1">
+                    <img id="dice2" src="img/dice2.png" class="dice dice2">
+                    <img id="dice3" src="img/dice3.png" class="dice dice3">
+                    <img id="dice4" src="img/dice4.png" class="dice dice4">
+                    <img id="dice5" src="img/dice5.png" class="dice dice5">
+                    <img id="dice6" src="img/dice6.png" class="dice dice6">
+                </div>
+                <h1 id="winner">WINNER!</h1>
+                <h3 id="loser">Ouch... you lose!</h3>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
